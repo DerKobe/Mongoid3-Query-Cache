@@ -26,11 +26,11 @@ gem 'mongoid-query_cache'
 Just use Mongoid 4 ... obviously.
 
 ##### Other Rack-Apps
-The preferred method is with bundler. Simply add the gem to your ```Gemfile```.
+The preferred method is with bundler. Simply add the gem to your ```Gemfile```
 ```ruby
 gem 'mongoid-query_cache'
 ```
-Use middleware:
+and use middleware
 ```ruby
 use Mongoid::QueryCache::Middleware
 ```

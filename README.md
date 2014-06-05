@@ -13,3 +13,24 @@ I left a lot of the original tests out because of missing functionality in Mongo
 ====================
 
 The original can be found here: https://github.com/mongoid/mongoid
+
+====================
+
+##### Rails 3 usage
+Add to your ```Gemfile```:
+```ruby
+gem 'mongoid-query_cache'
+```
+
+##### Rails 4 usage
+Just use Mongoid 4 ... obviously.
+
+##### Other Rack-Apps
+The preferred method is with bundler. Simply add the gem to your ```Gemfile```.
+```ruby
+gem 'mongoid-query_cache'
+```
+Use middleware:
+```ruby
+use Mongoid::QueryCache::Middleware
+```

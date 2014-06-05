@@ -136,7 +136,7 @@ module Mongoid
       end
 
       def instrument(key, &block)
-        ActiveSupport::Notifications.instrument("query_cache.mongoid", key: key, &block)
+        ActiveSupport::Notifications.instrument('query_cache.mongoid', key: key, &block)
       end
     end
 

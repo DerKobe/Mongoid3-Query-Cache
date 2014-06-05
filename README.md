@@ -1,4 +1,4 @@
-Mongoid3-Query-Cache
+Mongoid3-Query-Cache [![Build Status](https://travis-ci.org/DerKobe/Mongoid3-Query-Cache.svg?branch=master)](https://travis-ci.org/DerKobe/Mongoid3-Query-Cache)
 ====================
 
 Backport of the Mongoid 4 QueryCache for Mongoid 3.

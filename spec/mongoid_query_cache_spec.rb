@@ -72,7 +72,6 @@ describe Mongoid::QueryCache do
   context 'when querying in the same collection' do
 
     before do
-      binding.pry
       Band.all.entries
     end
 

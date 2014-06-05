@@ -7,8 +7,6 @@ require 'mongoid'
 require 'mongoid/query_cache'
 Mongoid.load!(File.expand_path('../../spec/config/mongoid.yml', __FILE__))
 
-require 'pry'
-
 class MongoLogger < Logger
   attr_accessor :messages
 

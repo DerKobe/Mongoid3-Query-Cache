@@ -90,6 +90,7 @@ describe Mongoid::QueryCache do
 
     context 'with same selector' do
 
+      # caching for .all and .where queries do not work with Moped 1.5
       xit 'does not query again' do
         expect_no_queries do
           Band.all.entries

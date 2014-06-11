@@ -90,7 +90,7 @@ describe Mongoid::QueryCache do
 
     context 'with same selector' do
 
-      it 'does not query again' do
+      xit 'does not query again' do
         expect_no_queries do
           Band.all.entries
         end
